@@ -89,8 +89,8 @@ function ProductList() {
               <p className="text-gray-600 text-sm truncate">{product.description}</p>
               <p className="text-lg font-bold text-green-600 mt-2">${product.price}</p>
               <div className="text-yellow-500">
-                {'★'.repeat(Math.round(product.rating.rate))} {/* Displaying stars based on rating */}
-                {'☆'.repeat(5 - Math.round(product.rating.rate))} {/* Displaying empty stars */}
+                {'★'.repeat(Math.round(product.rating.rate))} 
+                {'☆'.repeat(5 - Math.round(product.rating.rate))} 
                 <span className="text-gray-600 text-sm ml-2">({product.rating.count} reviews)</span>
               </div>
               <button

@@ -33,7 +33,7 @@ const BarChart: React.FC<BarChartProps> = ({ products, selectedGraphType, select
         backgroundColor: selectedGraphType === 'bar' ? 'rgba(75, 192, 192, 0.6)' : 'rgba(153, 102, 255, 0.6)',
         borderColor: selectedGraphType === 'bar' ? 'rgba(75, 192, 192, 1)' : 'rgba(153, 102, 255, 1)',
         borderWidth: 1,
-        fill: selectedGraphType === 'line', // Fill area under the line graph
+        fill: selectedGraphType === 'line', 
       },
     ],
   };

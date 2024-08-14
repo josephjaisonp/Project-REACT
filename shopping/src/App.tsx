@@ -35,11 +35,6 @@ const App: React.FC = () => {
           <Route path='/dashboard' element={<Dashboard/>}/>
           {/*<Route path="/compare" element={<ComparisonPage />} />*/}
 
-
-
-
-          
-
         </Routes>
       </Router>
     </CartProvider>

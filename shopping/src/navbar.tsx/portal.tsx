@@ -1,8 +1,3 @@
-
-
-
-
-
 import { useState, useEffect } from "react";
 import Axios from "axios";
 import { useAuth0 } from "@auth0/auth0-react";
